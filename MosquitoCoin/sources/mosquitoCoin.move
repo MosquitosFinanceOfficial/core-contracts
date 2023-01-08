@@ -343,7 +343,7 @@ module MasterChefDeployer::MosquitoCoin {
         });
     }
 
-    // Only resource_account should call this
+    // Call when the account is not registered to this coin
     public entry fun register_SUCKR(account: &signer) {
         let account_addr = signer::address_of(account);
         if (!coin::is_account_registered<SUCKR>(account_addr)) {
