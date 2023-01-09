@@ -3,8 +3,8 @@ name = 'MosquitoCoin'
 version = '1.0.0'
 
 [dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
 
 [addresses]
-MasterChefDeployer = "0xe5a711377de25cd1b2e428642d55a3cd31caef1e497f759ce687a8115c9b94f7"
-ResourceAccountDeployer = "0x253fa3f4c3b9d64a1f1bc50222273c3ee83aaa4a561923ff9f807893356c1284"
+MasterChefDeployer = "0x4db735a9d57f0ed393e44638540efc8e2ef2dccca3bd30c29bd09353b6285832"
+ResourceAccountDeployer = "0xe1996571b77b4fc6feeae1f426f124e68ff31bb30508562106479456f6ecaabd"
