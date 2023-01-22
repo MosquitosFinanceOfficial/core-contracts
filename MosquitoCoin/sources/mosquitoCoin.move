@@ -68,7 +68,7 @@ module MasterChefDeployer::MosquitoCoin {
         value: u64,
     }
 
-    fun init_module(admin: &signer) {
+    public fun initialize(admin: &signer) {
         let admin_addr = signer::address_of(admin);
         let (burn_cap, freeze_cap, mint_cap) = coin::initialize<SUCKR>(
             admin,
